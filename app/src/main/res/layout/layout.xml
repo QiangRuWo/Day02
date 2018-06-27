@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/v1"
+        android:background="@drawable/shixin"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/shang"
+        android:background="@drawable/shixin"
+        android:layout_above="@+id/v1"
+        android:layout_alignLeft="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/xia"
+        android:background="@drawable/shixin"
+        android:layout_below="@+id/v1"
+        android:layout_alignLeft="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/zuo"
+        android:background="@drawable/shixin"
+        android:layout_toLeftOf="@+id/v1"
+        android:layout_alignTop="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/you"
+        android:background="@drawable/shixin"
+        android:layout_toRightOf="@+id/v1"
+        android:layout_alignTop="@+id/v1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
